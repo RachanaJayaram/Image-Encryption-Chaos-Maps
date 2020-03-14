@@ -67,5 +67,16 @@ Moreover, **certain** chaos-based and other dynamical systems based algorithms h
 
 ![Adjacent Pixel Autocorrelation - Logistic Map](graphs/logisticencryptionauto.png "Adjacent Pixel Autocorrelation - Logistic Map")
 
+# Key Sensitivity
+## Arnold Cat
+### Original Image
 
+![Original Image](https://drive.google.com/uc?id=1Djfm4PqE7Su4WqEdZKiGL-8HtrbVBuMm "Original Image")
+
+### Encrypted with key = 20
+![Arnold cat encryption](graphs/arn20.png "Arnold cat encryption")
+
+### Decrypted with key = 19
+
+![Arnold cat encryption](graphs/arn19.png "Arnold cat encryption")
 
