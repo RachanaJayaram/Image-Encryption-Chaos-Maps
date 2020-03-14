@@ -27,18 +27,42 @@ Moreover, **certain** chaos-based and other dynamical systems based algorithms h
 *   pseudorandom properties
 *   ergodicity
 *   non periodicity
-
+# Images
 ### Original Image
 
 ![Original Image](https://drive.google.com/uc?id=1Djfm4PqE7Su4WqEdZKiGL-8HtrbVBuMm "Original Image")
 
 
-# Arnold Cat Map
+### Encrypted Images
 
-Arnold's cat map is a chaotic map often used for pixel manipulation. It applies a tranform on the image that essentially shuffles the pixels by stretching anf folding thethe image. When an optimal number of iterations of the transformation is applied on the image, the resulting image becomes incomprehensible and hence encrypted. 
+### Image after Arnold Cat Encryption
 
-### Arnold cat encryption
+![Arnold cat encryption](graphs/arnoldcatencryption.png "Arnold cat encryption")
+### Image after Henon Map Encryption
+
+![Henon Map Encryption](graphs/henonencryption.png "Arnold cat encryption")
+### Image after Logistic Map Encryption
+
+![Logistic Map Encryption](graphs/logisticencryption.png "Arnold cat encryption")
+
+### Original Image
+
+![Original Image](https://drive.google.com/uc?id=1Djfm4PqE7Su4WqEdZKiGL-8HtrbVBuMm "Original Image")
+
+# Intensity Histogram
+
+### Intensity Histogram - Original Image
+
+![Intensity Histogram - Original Image](graphs/arnoldcathist.png "Intensity Histogram - Original Image")
+### Intensity Histogram - Arnold Cat
+
+![Intensity Histogram - Arnold Cat](graphs/arnoldcatencryptionhist.png "Intensity Histogram - Arnold Cat")
+### Intensity Histogram - Henon Map
+
+![Intensity Histogram - Henon Map](graphs/henonencryptionhist.png "Intensity Histogram - Henon Map")
+### Intensity Histogram - Logistic Map
+
+![Intensity Histogram - Logistic Map](graphs/logisticencryptionhist.png "Intensity Histogram - Logistic Map")
 
 
-![Arnold cat encryption](https://drive.google.com/uc?id=1Djfm4PqE7Su4WqEdZKiGL-8HtrbVBuMm "Arnold cat encryption")
 
