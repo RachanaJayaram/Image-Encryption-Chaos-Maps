@@ -30,53 +30,89 @@ Moreover, **certain** chaos-based and other dynamical systems based algorithms h
 # Images
 ### Original Image
 
-![Original Image](https://drive.google.com/uc?id=1Djfm4PqE7Su4WqEdZKiGL-8HtrbVBuMm "Original Image")
+![Original Image](graphs/orig.png)
 
 
 ### Encrypted Images
 
 ### Image after Arnold Cat Encryption
 
-![Arnold cat encryption](graphs/arnoldcatencryption.png "Arnold cat encryption")
+![Arnold cat encryption](graphs/arnoldcatencryption.png )
 ### Image after Henon Map Encryption
 
-![Henon Map Encryption](graphs/henonencryption.png "Arnold cat encryption")
+![Henon Map Encryption](graphs/henonencryption.png )
 ### Image after Logistic Map Encryption
 
-![Logistic Map Encryption](graphs/logisticencryption.png "Arnold cat encryption")
+![Logistic Map Encryption](graphs/logisticencryption.png)
 
 # Intensity Histogram
 
 
-![Intensity Histogram - Original Image](graphs/arnoldcathist.png "Intensity Histogram - Original Image")
+![Intensity Histogram - Original Image](graphs/arnoldcathist.png)
 
-![Intensity Histogram - Arnold Cat](graphs/arnoldcatencryptionhist.png "Intensity Histogram - Arnold Cat")
+![Intensity Histogram - Arnold Cat](graphs/arnoldcatencryptionhist.png)
 
-![Intensity Histogram - Henon Map](graphs/henonencryptionhist.png "Intensity Histogram - Henon Map")
+![Intensity Histogram - Henon Map](graphs/henonencryptionhist.png)
 
-![Intensity Histogram - Logistic Map](graphs/logisticencryptionhist.png "Intensity Histogram - Logistic Map")
+![Intensity Histogram - Logistic Map](graphs/logisticencryptionhist.png)
 
 # Adjacent Pixel Autocorrelation
 
 
-![Adjacent Pixel Autocorrelation - Original Image](graphs/arnoldcatauto.png "Adjacent Pixel Autocorrelation - Original Image")
+![Adjacent Pixel Autocorrelation - Original Image](graphs/arnoldcatauto.png)
 
-![Adjacent Pixel Autocorrelation - Arnold Cat](graphs/arnoldcatencryptionauto.png "Adjacent Pixel Autocorrelation - Arnold Cat")
+![Adjacent Pixel Autocorrelation - Arnold Cat](graphs/arnoldcatencryptionauto.png)
 
-![Adjacent Pixel Autocorrelation - Henon Map](graphs/henonencryptionauto.png "Adjacent Pixel Autocorrelation - Henon Map")
+![Adjacent Pixel Autocorrelation - Henon Map](graphs/henonencryptionauto.png) 
 
-![Adjacent Pixel Autocorrelation - Logistic Map](graphs/logisticencryptionauto.png "Adjacent Pixel Autocorrelation - Logistic Map")
+![Adjacent Pixel Autocorrelation - Logistic Map](graphs/logisticencryptionauto.png)
 
 # Key Sensitivity
-## Arnold Cat
+## Henon Map
 ### Original Image
 
-![Original Image](https://drive.google.com/uc?id=1Djfm4PqE7Su4WqEdZKiGL-8HtrbVBuMm "Original Image")
+![Original Image](graphs/orig.png)
 
 ### Encrypted with key = 20
-![Arnold cat encryption](graphs/arn20.png "Arnold cat encryption")
+![Arnold cat encryption](graphs/arn20.png)
 
 ### Decrypted with key = 19
 
-![Arnold cat encryption](graphs/arn19.png "Arnold cat encryption")
+![Arnold cat encryption](graphs/arn19.png)
+
+## Arnold Cat
+### Original Image
+
+![Original Image](graphs/orig.png)
+
+### Encrypted with key = 20
+![Arnold cat encryption](graphs/arn20.png)
+
+### Decrypted with key = 19
+
+![Arnold cat Decryption](graphs/arn19.png)
+
+## Henon Map
+### Original Image
+
+![Original Image](graphs/orig.png)
+
+### Encrypted with key = (0.1, 0.1)
+![Henon Map encryption](graphs/hen01.png)
+
+### Decrypted with key = (0.1, 0.101)
+
+![Henon Map Decryption](graphs/hen0101.png)
+
+## Logistic Map
+### Original Image
+
+![Original Image](graphs/orig.png)
+
+### Encrypted with key = "supersecretke"
+![Logistic Map encryption](graphs/ssk.png)
+
+### Decrypted with key = "supersecretke"
+
+![Logistic Map Decryption](graphs/ssk_wrong.png)
 
