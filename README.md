@@ -45,10 +45,6 @@ Moreover, **certain** chaos-based and other dynamical systems based algorithms h
 
 ![Logistic Map Encryption](graphs/logisticencryption.png "Arnold cat encryption")
 
-### Original Image
-
-![Original Image](https://drive.google.com/uc?id=1Djfm4PqE7Su4WqEdZKiGL-8HtrbVBuMm "Original Image")
-
 # Intensity Histogram
 
 ### Intensity Histogram - Original Image
