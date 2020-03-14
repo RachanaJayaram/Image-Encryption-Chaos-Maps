@@ -27,6 +27,13 @@ Moreover, **certain** chaos-based and other dynamical systems based algorithms h
 *   pseudorandom properties
 *   ergodicity
 *   non periodicity
+
+<hr>
+
+Link to notebook with detailed documentation is hosted on [Google Colab](https://colab.research.google.com/drive/1A0tgOrrFwQxmbvBEY9lqzLEFVv7Iit6T).
+<br>
+Alternatively it is in ChaosEncryption.ipynb
+<br>
 ## Images
 ### Original Image
 
@@ -47,6 +54,7 @@ Moreover, **certain** chaos-based and other dynamical systems based algorithms h
 
 ## Intensity Histogram
 
+The ciphertext image histogram analysis is one of the most straight-forward methods ofillustrating the image encryption quality. A good image encryption method tends to encrypt a plaintext image to a random incomprehensible form. Thus a good image encyption technique generates a cipher image that has a uniformly distributed intensity histogram.
 
 ![Intensity Histogram - Original Image](graphs/arnoldcathist.png)
 
@@ -58,6 +66,9 @@ Moreover, **certain** chaos-based and other dynamical systems based algorithms h
 
 ## Adjacent Pixel Autocorrelation
 
+Since images exhibit high information redundancy, it is desirable to have an encryption algorithm that breaks this redundancy. Thus as a metric of encryption performance we find the correlation between adjacent pixels in a direction (Horizontal, Vertical or Diagonal). We have considered the Horizontal direction. 
+
+1024 random pixels are picked up from the image and its correlation between it's rightmost neighbour is found and plotted. For a good algorithm, the correlation plot should appear random with no discernable pattern.
 
 ![Adjacent Pixel Autocorrelation - Original Image](graphs/arnoldcatauto.png)
 
@@ -68,7 +79,7 @@ Moreover, **certain** chaos-based and other dynamical systems based algorithms h
 ![Adjacent Pixel Autocorrelation - Logistic Map](graphs/logisticencryptionauto.png)
 
 ## Key Sensitivity
-
+An ideal image encryption algorithm should be sensitive with respect to thesecret key i.e a small change in the key should produce a completely differentencrypted image.To test the key sensitivity the we encrypt the plain image with the threealgorithms. We then try decrypting them with a slightly changed key.
 ### Arnold Cat
 #### Original Image
 
