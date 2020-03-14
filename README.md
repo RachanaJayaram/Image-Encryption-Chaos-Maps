@@ -34,6 +34,7 @@ Link to notebook with detailed documentation is hosted on [Google Colab](https:/
 <br>
 Alternatively it is in ChaosEncryption.ipynb
 <br>
+Write-up for the report is in ChaosMaps_WriteUp.pdf .
 ## Images
 ### Original Image
 
