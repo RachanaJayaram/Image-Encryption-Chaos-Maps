@@ -47,18 +47,25 @@ Moreover, **certain** chaos-based and other dynamical systems based algorithms h
 
 # Intensity Histogram
 
-### Intensity Histogram - Original Image
 
 ![Intensity Histogram - Original Image](graphs/arnoldcathist.png "Intensity Histogram - Original Image")
-### Intensity Histogram - Arnold Cat
 
 ![Intensity Histogram - Arnold Cat](graphs/arnoldcatencryptionhist.png "Intensity Histogram - Arnold Cat")
-### Intensity Histogram - Henon Map
 
 ![Intensity Histogram - Henon Map](graphs/henonencryptionhist.png "Intensity Histogram - Henon Map")
-### Intensity Histogram - Logistic Map
 
 ![Intensity Histogram - Logistic Map](graphs/logisticencryptionhist.png "Intensity Histogram - Logistic Map")
+
+# Adjacent Pixel Autocorrelation
+
+
+![Adjacent Pixel Autocorrelation - Original Image](graphs/arnoldcatauto.png "Adjacent Pixel Autocorrelation - Original Image")
+
+![Adjacent Pixel Autocorrelation - Arnold Cat](graphs/arnoldcatencryptionauto.png "Adjacent Pixel Autocorrelation - Arnold Cat")
+
+![Adjacent Pixel Autocorrelation - Henon Map](graphs/henonencryptionauto.png "Adjacent Pixel Autocorrelation - Henon Map")
+
+![Adjacent Pixel Autocorrelation - Logistic Map](graphs/logisticencryptionauto.png "Adjacent Pixel Autocorrelation - Logistic Map")
 
 
 
