@@ -27,7 +27,7 @@ Moreover, **certain** chaos-based and other dynamical systems based algorithms h
 *   pseudorandom properties
 *   ergodicity
 *   non periodicity
-# Images
+## Images
 ### Original Image
 
 ![Original Image](graphs/orig.png)
@@ -35,17 +35,17 @@ Moreover, **certain** chaos-based and other dynamical systems based algorithms h
 
 ### Encrypted Images
 
-### Image after Arnold Cat Encryption
+#### Image after Arnold Cat Encryption
 
 ![Arnold cat encryption](graphs/arnoldcatencryption.png )
-### Image after Henon Map Encryption
+#### Image after Henon Map Encryption
 
 ![Henon Map Encryption](graphs/henonencryption.png )
-### Image after Logistic Map Encryption
+#### Image after Logistic Map Encryption
 
 ![Logistic Map Encryption](graphs/logisticencryption.png)
 
-# Intensity Histogram
+## Intensity Histogram
 
 
 ![Intensity Histogram - Original Image](graphs/arnoldcathist.png)
@@ -56,7 +56,7 @@ Moreover, **certain** chaos-based and other dynamical systems based algorithms h
 
 ![Intensity Histogram - Logistic Map](graphs/logisticencryptionhist.png)
 
-# Adjacent Pixel Autocorrelation
+## Adjacent Pixel Autocorrelation
 
 
 ![Adjacent Pixel Autocorrelation - Original Image](graphs/arnoldcatauto.png)
@@ -67,52 +67,41 @@ Moreover, **certain** chaos-based and other dynamical systems based algorithms h
 
 ![Adjacent Pixel Autocorrelation - Logistic Map](graphs/logisticencryptionauto.png)
 
-# Key Sensitivity
-## Henon Map
-### Original Image
+## Key Sensitivity
+
+### Arnold Cat
+#### Original Image
 
 ![Original Image](graphs/orig.png)
 
-### Encrypted with key = 20
+#### Encrypted with key = 20
 ![Arnold cat encryption](graphs/arn20.png)
 
-### Decrypted with key = 19
-
-![Arnold cat encryption](graphs/arn19.png)
-
-## Arnold Cat
-### Original Image
-
-![Original Image](graphs/orig.png)
-
-### Encrypted with key = 20
-![Arnold cat encryption](graphs/arn20.png)
-
-### Decrypted with key = 19
+#### Decrypted with key = 19
 
 ![Arnold cat Decryption](graphs/arn19.png)
 
-## Henon Map
-### Original Image
+### Henon Map
+#### Original Image
 
 ![Original Image](graphs/orig.png)
 
-### Encrypted with key = (0.1, 0.1)
+#### Encrypted with key = (0.1, 0.1)
 ![Henon Map encryption](graphs/hen01.png)
 
-### Decrypted with key = (0.1, 0.101)
+#### Decrypted with key = (0.1, 0.101)
 
 ![Henon Map Decryption](graphs/hen0101.png)
 
-## Logistic Map
-### Original Image
+### Logistic Map
+#### Original Image
 
 ![Original Image](graphs/orig.png)
 
-### Encrypted with key = "supersecretke"
+#### Encrypted with key = "supersecretke"
 ![Logistic Map encryption](graphs/ssk.png)
 
-### Decrypted with key = "supersecretke"
+#### Decrypted with key = "supersecretke"
 
 ![Logistic Map Decryption](graphs/ssk_wrong.png)
 
