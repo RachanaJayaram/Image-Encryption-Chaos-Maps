@@ -30,7 +30,7 @@ Moreover, **certain** chaos-based and other dynamical systems based algorithms h
 
 <hr>
 
-Link to notebook with detailed documentation is hosted on [Google Colab](https://colab.research.google.com/drive/1A0tgOrrFwQxmbvBEY9lqzLEFVv7Iit6T).
+[Link to notebook](https://colab.research.google.com/drive/1A0tgOrrFwQxmbvBEY9lqzLEFVv7Iit6T) with detailed documentation hosted on Google Colab.
 <br>
 Alternatively it is in ChaosEncryption.ipynb
 <br>
