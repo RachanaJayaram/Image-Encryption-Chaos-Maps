@@ -113,7 +113,7 @@ An ideal image encryption algorithm should be sensitive with respect to thesecre
 #### Encrypted with key = "supersecretke"
 ![Logistic Map encryption](graphs/ssk.png)
 
-#### Decrypted with key = "supersecretke"
+#### Decrypted with key = "supersecretkd"
 
 ![Logistic Map Decryption](graphs/ssk_wrong.png)
 
